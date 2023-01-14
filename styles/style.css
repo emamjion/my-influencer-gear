@@ -1,0 +1,102 @@
+/* Google fonts link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* common styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --txt-clr: #3a3a3a;
+    --popular-clr: #e02c6d;
+}
+/* common styles */
+/* --------------------------------
+    Header Section styles starts
+----------------------------------*/
+/* Nav Part */
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 120px;
+}
+.navbar .logo{
+    color: var(--txt-clr);
+    font-size: 24px;
+    font-weight: 700;
+}
+.navbar .navlist{
+    display: flex;
+    gap: 30px;
+}
+.navbar .navlist li{
+    list-style: none;
+}
+.navbar .navlist li a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--txt-clr);
+}
+.navbar .navlist li a.fnt-size{
+    font-size: 24px;
+}
+/* Banner part */
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 120px;
+}
+.banner-txt{
+    width: 585px;
+}
+.banner .banner-txt .banner-title{
+    font-size: 52px;
+    font-weight: 700;
+    color: var(--txt-clr);
+}
+.banner .banner-txt .banner-desc{
+    font-size: 17px;
+    color: var(--txt-clr);
+    font-weight: 600;
+    margin: 16px 0;
+}
+.banner .banner-txt .banner-btn{
+    display: inline-block;
+    padding: 10px 24px;
+    border-radius: 40px;
+    border: 0;
+    outline: none;
+    background-color: var(--popular-clr);
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.banner .banner-txt .banner-btn i{
+    margin-left: 8px;
+}
+.banner .banner-img{
+    border: 3px solid #F1E4FF;
+    border-radius: 50%;
+    padding: 6px;
+    position: relative;
+}
+.banner .banner-img::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    background-color: #F1E4FF;
+    z-index: -1;
+    padding: 6px;
+}
+/* -------------------------- 
+Header Section styles Ends 
+----------------------------*/
