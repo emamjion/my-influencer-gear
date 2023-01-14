@@ -20,7 +20,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 60px 120px;
+    padding: 60px 220px;
 }
 .navbar .logo{
     color: var(--txt-clr);
@@ -48,7 +48,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 60px 120px;
+    padding: 60px 220px;
 }
 .banner-txt{
     width: 585px;
@@ -97,6 +97,158 @@
     z-index: -1;
     padding: 6px;
 }
+/* Online Market part */
+.online-market{
+    width: 1110px;
+    height: 110px;
+    border-top: 1px solid #dcdedf;
+    border-bottom: 1px solid #dcdedf;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 /* -------------------------- 
 Header Section styles Ends 
 ----------------------------*/
+/* -------------------------- 
+main Section styles starts 
+----------------------------*/
+main{
+    margin-top: 110px;
+}
+/* Popular Section */
+.popular{
+    width: 1060px;
+    margin: 0 auto;
+}
+.popular-title{
+    font-size: 28px;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3,330px);
+    justify-content: center;
+    grid-gap: 30px;
+}
+.product{
+    background-color: #fff;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 15px;
+}
+.product-name{
+    font-size: 28px;
+    margin: 6px 0;
+    font-weight: 500;
+}
+.price{
+    font-size: 24px;
+    margin-bottom: 6px;
+}
+.rating .fas.filled{
+    color: #FB8200;
+    font-size: 14px;
+}
+.rating .fas.empty{
+    color: #b7b3b3;
+    font-size: 14px;
+}
+.product-shipping{
+    margin-top: 5px;
+}
+.product-shipping p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #787885;
+}
+.see-more-btn{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+}
+.see-more-btn a{
+    color: var(--popular-clr);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 17px;
+}
+.see-more-btn a i{
+    margin-left: 10px;
+}
+/* Featured section  */
+.featured{
+    width: 1100px;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.featured-txt{
+    width: 610px;
+}
+.featured-txt .featured-title{
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.featured-desc{
+    width: 560px;
+    color: #6c6c6c;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.featured-btn{
+    display: block;
+    padding: 10px 25px;
+    border: 0;
+    outline: none;
+    background-color: var(--popular-clr);
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 15px;
+}
+.featured-btn i{
+    margin-left: 10px;
+}
+/* -------------------------- 
+main Section styles ends 
+----------------------------*/
+/* Footer section starts */
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: #0a0826;
+    color: #fff;
+}
+.footer .middle{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer-title{
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+.copy-right, .reserved{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.social i{
+    margin: 15px 10px;
+    width: 30px;
+    height: 30px;
+    background-color: #22213c;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 15px;
+}
+/* Footer section ends */
